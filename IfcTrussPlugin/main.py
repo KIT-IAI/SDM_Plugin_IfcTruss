@@ -170,6 +170,8 @@ def get_point_loads_from_ifcdb(document, nodes_dict):
 
 def truss_calculation():
 
+    app = wx.App(False)
+
     document = ifcdb.get_document()
 
     document.log_message("IfcTruss calculation")
@@ -177,6 +179,12 @@ def truss_calculation():
     nodes_dict = {}
 
     nodes = get_nodes_from_ifcdb(document, nodes_dict)
+
+    if len(nodes_dict) == 0:
+        document.log_message("No structural analysis data available")
+        wx.MessageDialog(None, 'No structural analysis data available', 'Info', wx.OK | wx.ICON_INFORMATION).ShowModal()
+        return
+
     bars = get_bars_from_ifcdb(document, nodes_dict)
     point_loads = get_point_loads_from_ifcdb(document, nodes_dict)
 
