@@ -190,7 +190,6 @@ def truss_calculation():
 
     results = ifctruss.solver.direct_stiffness_method(nodes, bars, point_loads)
 
-    app = wx.App(False)
     dlg = IfcTrussDialogImpl.IfcTrussDialogImpl(None)
     dlg.fillGrid(results)
     dlg.ShowModal()
