@@ -11,3 +11,14 @@ The user interface is based on [wxWidgets](https://www.wxwidgets.org/) and was m
 |:---                 |:---                                       |
 |IfcTruss             |pip install ifctruss	                      |
 |wxPython             |pip install wxPython                       |
+
+### How to cite:
+
+```bibtex
+@software{SDM_Plugin_IfcTruss,
+	title        = {SDM_Plugin_IfcTruss},
+	author       = {{Andreas Geiger}},
+	url          = {https://github.com/KIT-IAI/SDM_Plugin_IfcTruss},
+	date         = {2023}
+}
+```
