@@ -12,7 +12,7 @@ The user interface is based on [wxWidgets](https://www.wxwidgets.org/) and was m
 |IfcTruss             |pip install ifctruss	                      |
 |wxPython             |pip install wxPython                       |
 
-### How to cite:
+## How to cite
 
 ```bibtex
 @software{SDM_Plugin_IfcTruss,
