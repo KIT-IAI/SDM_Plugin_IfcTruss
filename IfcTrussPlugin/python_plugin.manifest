@@ -1,2 +1,3 @@
 ACTION=IfcTruss
+POPUP=IfcTruss
 SCRIPT=main.py
