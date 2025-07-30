@@ -1,5 +1,5 @@
 # IfcTruss Plugin
-The IfcTruss Plugin is a Python plugin for the KITModelViewer Python API using the [IfcTruss](https://github.com/IfcTruss/IfcTruss) library for calculating trusses in the Industry Foundation Classes (IFC) standard.
+The IfcTruss Plugin is a Python plugin for the [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer) and based on the Python API using the [IfcTruss](https://github.com/IfcTruss/IfcTruss) library for calculating trusses in the Industry Foundation Classes (IFC) standard.
 <img width="1641" alt="IfcTrussPlugin2" src="https://github.com/KIT-IAI/SDM_Plugin_IfcTruss/assets/7059379/0acaf10d-0b95-45e7-a4b4-ae8d659493d8">
 ## User Interface
 
